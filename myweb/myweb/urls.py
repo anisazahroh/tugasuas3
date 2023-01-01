@@ -8,5 +8,5 @@ urlpatterns = [
     path('', views.index),
     path('blog/', include('blog.urls')),
     path('contak/', include('contak.urls')),
-    path('menu/', include('menu.urls')),
+    path('produk/', include('produk.urls')),
 ]
